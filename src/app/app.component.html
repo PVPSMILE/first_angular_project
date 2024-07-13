@@ -9,8 +9,8 @@
         />
       </li>
       <li>
-        <app-user [id]="users[1].name"
-       [avatar]="users[2].avatar"
+        <app-user [id]="users[1].id"
+       [avatar]="users[1].avatar"
        [name]="users[1].name"
        (select)="onSelectUser($event)"
        />
@@ -31,6 +31,7 @@
      </li>
 
     </ul>
+    <app-tasks [name]="selectedUser"></app-tasks>
   </main>
   
  
