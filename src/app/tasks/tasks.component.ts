@@ -9,8 +9,8 @@ import { DUMMY_USERS } from '../dummy-users';
   styleUrl: './tasks.component.css'
 })
 export class TasksComponent {
-  
-  @Input({required: true} ) name!: string;
+
+  @Input() name?: string;
     // DUMMY_USERS.find(user => user.id === selectedUserID)!
 
 }
