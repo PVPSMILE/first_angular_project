@@ -1,10 +1,6 @@
 import { Component, computed, Input, Output, output, EventEmitter } from '@angular/core';
 
-type User = {
-  id: string;
-  name: string;
-  avatar: string;
-}
+import { type User } from './user.modal';
 
 @Component({
   selector: 'app-user',
