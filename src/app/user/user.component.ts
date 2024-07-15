@@ -11,6 +11,7 @@ import { type User } from './user.modal';
 })
 export class UserComponent {
   @Input () user!:User
+  @Input ({ required:true }) selected!:boolean;
   @Output () select = new EventEmitter();
   
   get imagePath(){
