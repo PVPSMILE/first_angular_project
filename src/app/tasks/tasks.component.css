@@ -13,7 +13,10 @@
     margin-bottom: 2rem;
     gap: 1rem;
   }
-  
+  .active {
+    background-color: #9965dd;
+    color: #150722;
+  }
   h2 {
     margin: 0;
     font-size: 0.9rem;
